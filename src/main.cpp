@@ -2,10 +2,10 @@
 #include <Point.hpp>
 #include <Segment.hpp>
 #include <Triangle.hpp>
+#include <RightTriangle.hpp>
 
 int main() {
-    Triangle trojkat(0,0,2,3,3,1);
-    std::cout<<trojkat.perimeter()<<std::endl;
-    std::cout<<trojkat.area() << std::endl;
+    Segment dupa(0,0,2,0);
+    std::cout << dupa.areSegmentsPerpendicular(1,1,1,-1);
     return 0;
 }

@@ -5,7 +5,6 @@
 class Triangle {
 
 private:
-    bool isPossible;
     Point a;
     Point b;
     Point c; 

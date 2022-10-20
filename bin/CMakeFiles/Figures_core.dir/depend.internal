@@ -4,6 +4,10 @@
 CMakeFiles/Figures_core.dir/src/Point.cpp.o
  ../include/Point.hpp
  /home/paro/programowanie/PwrRacingTriangles/src/Point.cpp
+CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.o
+ ../include/Point.hpp
+ ../include/RightTriangle.hpp
+ /home/paro/programowanie/PwrRacingTriangles/src/RightTriangle.cpp
 CMakeFiles/Figures_core.dir/src/Segment.cpp.o
  ../include/Point.hpp
  ../include/Segment.hpp

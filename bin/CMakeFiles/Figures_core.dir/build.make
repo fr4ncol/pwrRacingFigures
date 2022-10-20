@@ -115,11 +115,25 @@ CMakeFiles/Figures_core.dir/src/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Figures_core.dir/src/Triangle.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paro/programowanie/PwrRacingTriangles/src/Triangle.cpp -o CMakeFiles/Figures_core.dir/src/Triangle.cpp.s
 
+CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.o: CMakeFiles/Figures_core.dir/flags.make
+CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.o: ../src/RightTriangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.o -c /home/paro/programowanie/PwrRacingTriangles/src/RightTriangle.cpp
+
+CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/paro/programowanie/PwrRacingTriangles/src/RightTriangle.cpp > CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.i
+
+CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/paro/programowanie/PwrRacingTriangles/src/RightTriangle.cpp -o CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.s
+
 # Object files for target Figures_core
 Figures_core_OBJECTS = \
 "CMakeFiles/Figures_core.dir/src/Point.cpp.o" \
 "CMakeFiles/Figures_core.dir/src/Segment.cpp.o" \
-"CMakeFiles/Figures_core.dir/src/Triangle.cpp.o"
+"CMakeFiles/Figures_core.dir/src/Triangle.cpp.o" \
+"CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.o"
 
 # External object files for target Figures_core
 Figures_core_EXTERNAL_OBJECTS =
@@ -127,9 +141,10 @@ Figures_core_EXTERNAL_OBJECTS =
 libFigures_core.a: CMakeFiles/Figures_core.dir/src/Point.cpp.o
 libFigures_core.a: CMakeFiles/Figures_core.dir/src/Segment.cpp.o
 libFigures_core.a: CMakeFiles/Figures_core.dir/src/Triangle.cpp.o
+libFigures_core.a: CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.o
 libFigures_core.a: CMakeFiles/Figures_core.dir/build.make
 libFigures_core.a: CMakeFiles/Figures_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libFigures_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libFigures_core.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Figures_core.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Figures_core.dir/link.txt --verbose=$(VERBOSE)
 

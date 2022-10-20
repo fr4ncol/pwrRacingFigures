@@ -14,6 +14,16 @@ math.h
 cmath
 -
 
+../include/RightTriangle.hpp
+Point.hpp
+-
+math.h
+-
+algorithm
+-
+initializer_list
+-
+
 ../include/Segment.hpp
 iostream
 -
@@ -36,5 +46,7 @@ Point.hpp
 Segment.hpp
 -
 Triangle.hpp
+-
+RightTriangle.hpp
 -
 

@@ -18,6 +18,10 @@ public:
     double segmentLenght();
 
     bool isPointLyingOnSegment(double x, double y);
+
+    bool areSegmentsParallel(double a1,double b1, double a2, double b2);
+
+    bool areSegmentsPerpendicular(double a1,double b1, double a2, double b2);
     
     void printCoordinates();
 

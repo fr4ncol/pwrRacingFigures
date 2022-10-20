@@ -3,6 +3,7 @@
 
 CMakeFiles/Figures.dir/src/main.cpp.o
  ../include/Point.hpp
+ ../include/RightTriangle.hpp
  ../include/Segment.hpp
  ../include/Triangle.hpp
  /home/paro/programowanie/PwrRacingTriangles/src/main.cpp

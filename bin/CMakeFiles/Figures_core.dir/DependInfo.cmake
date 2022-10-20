@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/paro/programowanie/PwrRacingTriangles/src/Point.cpp" "/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles/Figures_core.dir/src/Point.cpp.o"
+  "/home/paro/programowanie/PwrRacingTriangles/src/RightTriangle.cpp" "/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles/Figures_core.dir/src/RightTriangle.cpp.o"
   "/home/paro/programowanie/PwrRacingTriangles/src/Segment.cpp" "/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles/Figures_core.dir/src/Segment.cpp.o"
   "/home/paro/programowanie/PwrRacingTriangles/src/Triangle.cpp" "/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles/Figures_core.dir/src/Triangle.cpp.o"
   )

@@ -37,5 +37,35 @@ bool Segment::isPointLyingOnSegment(double xVal, double yVal) {
     else return false;
 }
 
+bool Segment::areSegmentsParallel(double a1,double b1, double a2, double b2) {
+    double xvecXY = b.getX()-a.getX();
+    double yvecXY = b.getY()-a.getY();
+    double xvecAB = a2-a1;
+    double yvecAB = b2-b1;
 
 
+
+    if((xvecXY*yvecAB)-(yvecXY*xvecAB)==0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+
+bool Segment::areSegmentsPerpendicular (double a1,double b1, double a2, double b2) {
+    double xvecXY = b.getX()-a.getX();
+    double yvecXY = b.getY()-a.getY();
+    double xvecAB = a2-a1;
+    double yvecAB = b2-b1;
+
+
+
+    if((xvecXY*xvecAB)+(yvecXY*yvecAB)==0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
