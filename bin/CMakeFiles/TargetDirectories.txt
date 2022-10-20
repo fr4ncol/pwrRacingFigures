@@ -1,0 +1,4 @@
+/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles/edit_cache.dir
+/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles/Figures_core.dir
+/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles/rebuild_cache.dir
+/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles/Figures.dir

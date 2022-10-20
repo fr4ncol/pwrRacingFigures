@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Point.hpp
+iostream
+-
+math.h
+-
+cmath
+-
+
+/home/paro/programowanie/PwrRacingTriangles/src/Point.cpp
+Point.hpp
+/home/paro/programowanie/PwrRacingTriangles/src/Point.hpp
+
