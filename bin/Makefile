@@ -209,6 +209,33 @@ src/Segment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Figures_core.dir/build.make CMakeFiles/Figures_core.dir/src/Segment.cpp.s
 .PHONY : src/Segment.cpp.s
 
+src/Triangle.o: src/Triangle.cpp.o
+
+.PHONY : src/Triangle.o
+
+# target to build an object file
+src/Triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Figures_core.dir/build.make CMakeFiles/Figures_core.dir/src/Triangle.cpp.o
+.PHONY : src/Triangle.cpp.o
+
+src/Triangle.i: src/Triangle.cpp.i
+
+.PHONY : src/Triangle.i
+
+# target to preprocess a source file
+src/Triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Figures_core.dir/build.make CMakeFiles/Figures_core.dir/src/Triangle.cpp.i
+.PHONY : src/Triangle.cpp.i
+
+src/Triangle.s: src/Triangle.cpp.s
+
+.PHONY : src/Triangle.s
+
+# target to generate assembly for a file
+src/Triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Figures_core.dir/build.make CMakeFiles/Figures_core.dir/src/Triangle.cpp.s
+.PHONY : src/Triangle.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -252,6 +279,9 @@ help:
 	@echo "... src/Segment.o"
 	@echo "... src/Segment.i"
 	@echo "... src/Segment.s"
+	@echo "... src/Triangle.o"
+	@echo "... src/Triangle.i"
+	@echo "... src/Triangle.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

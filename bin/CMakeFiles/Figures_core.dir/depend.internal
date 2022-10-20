@@ -8,3 +8,7 @@ CMakeFiles/Figures_core.dir/src/Segment.cpp.o
  ../include/Point.hpp
  ../include/Segment.hpp
  /home/paro/programowanie/PwrRacingTriangles/src/Segment.cpp
+CMakeFiles/Figures_core.dir/src/Triangle.cpp.o
+ ../include/Point.hpp
+ ../include/Triangle.hpp
+ /home/paro/programowanie/PwrRacingTriangles/src/Triangle.cpp

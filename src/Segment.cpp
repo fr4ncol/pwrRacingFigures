@@ -37,3 +37,5 @@ bool Segment::isPointLyingOnSegment(double xVal, double yVal) {
     else return false;
 }
 
+
+

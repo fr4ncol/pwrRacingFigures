@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/paro/programowanie/PwrRacingTriangles/src/Point.cpp" "/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles/Figures_core.dir/src/Point.cpp.o"
   "/home/paro/programowanie/PwrRacingTriangles/src/Segment.cpp" "/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles/Figures_core.dir/src/Segment.cpp.o"
+  "/home/paro/programowanie/PwrRacingTriangles/src/Triangle.cpp" "/home/paro/programowanie/PwrRacingTriangles/bin/CMakeFiles/Figures_core.dir/src/Triangle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Figures_core.dir/src/Point.cpp.o"
   "CMakeFiles/Figures_core.dir/src/Segment.cpp.o"
+  "CMakeFiles/Figures_core.dir/src/Triangle.cpp.o"
   "libFigures_core.a"
   "libFigures_core.pdb"
 )

@@ -1,10 +1,11 @@
 #include <iostream>
 #include <Point.hpp>
 #include <Segment.hpp>
+#include <Triangle.hpp>
 
 int main() {
-    Segment odcinek(1,1,2,2);
-    odcinek.printCoordinates();
-    std::cout<<odcinek.isPointLyingOnSegment(1.83,1.83);
+    Triangle trojkat(0,0,2,3,3,1);
+    std::cout<<trojkat.perimeter()<<std::endl;
+    std::cout<<trojkat.area() << std::endl;
     return 0;
 }

@@ -1,2 +1,2 @@
-/usr/bin/ar qc libFigures_core.a CMakeFiles/Figures_core.dir/src/Point.cpp.o CMakeFiles/Figures_core.dir/src/Segment.cpp.o
+/usr/bin/ar qc libFigures_core.a CMakeFiles/Figures_core.dir/src/Point.cpp.o CMakeFiles/Figures_core.dir/src/Segment.cpp.o CMakeFiles/Figures_core.dir/src/Triangle.cpp.o
 /usr/bin/ranlib libFigures_core.a

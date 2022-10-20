@@ -1,14 +1,26 @@
 #pragma once
+#include <Point.hpp>
+#include <math.h>
 
-class Segment {
+class Triangle {
 
 private:
-    int x[3];
-    int y[3];
-
+    bool isPossible;
+    Point a;
+    Point b;
+    Point c; 
 public: 
-    void move(int vectorA, int vectorB);
-
-    void rotate(); //todo
+    Triangle(double x1, double y1,double x2,double y2, double x3, double y3);
     
+    void move(double vectorA, double vectorB);
+
+    void rotate(float degrees, double x, double y);
+    
+    bool isTriangle();
+
+    bool exceptionThrower();
+
+    double perimeter();
+
+    double area();
 };

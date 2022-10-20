@@ -20,4 +20,6 @@ public:
     bool isPointLyingOnSegment(double x, double y);
     
     void printCoordinates();
+
+    //bool areParallel(Segment& seg);
 };

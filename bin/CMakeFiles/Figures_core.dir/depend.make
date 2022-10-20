@@ -8,3 +8,7 @@ CMakeFiles/Figures_core.dir/src/Segment.cpp.o: ../include/Point.hpp
 CMakeFiles/Figures_core.dir/src/Segment.cpp.o: ../include/Segment.hpp
 CMakeFiles/Figures_core.dir/src/Segment.cpp.o: ../src/Segment.cpp
 
+CMakeFiles/Figures_core.dir/src/Triangle.cpp.o: ../include/Point.hpp
+CMakeFiles/Figures_core.dir/src/Triangle.cpp.o: ../include/Triangle.hpp
+CMakeFiles/Figures_core.dir/src/Triangle.cpp.o: ../src/Triangle.cpp
+

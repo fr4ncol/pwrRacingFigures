@@ -22,11 +22,19 @@ algorithm
 Point.hpp
 -
 
+../include/Triangle.hpp
+Point.hpp
+-
+math.h
+-
+
 /home/paro/programowanie/PwrRacingTriangles/src/main.cpp
 iostream
 -
 Point.hpp
 -
 Segment.hpp
+-
+Triangle.hpp
 -
 

@@ -3,5 +3,6 @@
 
 CMakeFiles/Figures.dir/src/main.cpp.o: ../include/Point.hpp
 CMakeFiles/Figures.dir/src/main.cpp.o: ../include/Segment.hpp
+CMakeFiles/Figures.dir/src/main.cpp.o: ../include/Triangle.hpp
 CMakeFiles/Figures.dir/src/main.cpp.o: ../src/main.cpp
 
