@@ -4,6 +4,7 @@
 CMakeFiles/Figures_core.dir/src/Point.cpp.o: ../include/Point.hpp
 CMakeFiles/Figures_core.dir/src/Point.cpp.o: ../src/Point.cpp
 
+CMakeFiles/Figures_core.dir/src/Segment.cpp.o: ../include/Point.hpp
 CMakeFiles/Figures_core.dir/src/Segment.cpp.o: ../include/Segment.hpp
 CMakeFiles/Figures_core.dir/src/Segment.cpp.o: ../src/Segment.cpp
 

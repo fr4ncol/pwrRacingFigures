@@ -1,13 +1,23 @@
 #pragma once
+#include <iostream>
+#include <algorithm>
+#include <Point.hpp>
+
 class Segment {
 
 private:
-    int x[2];
-    int y[2];
-
+    Point a;
+    Point b; 
 public: 
-    void move(int vectorA, int vectorB);
+    Segment(double x1, double y1,double x2,double y2); 
 
-    void rotate(); //todo
+    void move(double vectorA, double vectorB);
+
+    void rotate(float degrees, double x, double y);
+
+    double segmentLenght();
+
+    bool isPointLyingOnSegment(double x, double y);
     
+    void printCoordinates();
 };

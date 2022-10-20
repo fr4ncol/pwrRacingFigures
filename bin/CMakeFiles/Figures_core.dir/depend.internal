@@ -5,5 +5,6 @@ CMakeFiles/Figures_core.dir/src/Point.cpp.o
  ../include/Point.hpp
  /home/paro/programowanie/PwrRacingTriangles/src/Point.cpp
 CMakeFiles/Figures_core.dir/src/Segment.cpp.o
+ ../include/Point.hpp
  ../include/Segment.hpp
  /home/paro/programowanie/PwrRacingTriangles/src/Segment.cpp

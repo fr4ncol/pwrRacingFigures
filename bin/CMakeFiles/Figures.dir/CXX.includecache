@@ -14,9 +14,19 @@ math.h
 cmath
 -
 
+../include/Segment.hpp
+iostream
+-
+algorithm
+-
+Point.hpp
+-
+
 /home/paro/programowanie/PwrRacingTriangles/src/main.cpp
 iostream
 -
 Point.hpp
+-
+Segment.hpp
 -
 
